@@ -4,7 +4,7 @@ import ProductPreview from './pages/ProductPreview';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/FloraTune">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product-preview" element={<ProductPreview />} />

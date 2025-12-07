@@ -1,22 +1,20 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
-import Problem from '../components/Problem';
-import Solution from '../components/Solution';
-import Differentiation from '../components/Differentiation';
-import Moat from '../components/Moat';
+import Features from '../components/Features';
+import Microbiome from '../components/Microbiome';
+import Actionable from '../components/Actionable';
 import Team from '../components/Team';
 import Contact from '../components/Contact';
 
 const Home = () => {
     return (
-        <div className="bg-black min-h-screen text-white font-sans selection:bg-purple-500 selection:text-white">
+        <div className="bg-[#FFFAF5] min-h-screen text-gray-900 font-sans selection:bg-pink-200 selection:text-pink-900">
             <Navbar />
             <main>
                 <Hero />
-                <Problem />
-                <Solution />
-                <Differentiation />
-                <Moat />
+                <Features />
+                <Microbiome />
+                <Actionable />
                 <Team />
                 <Contact />
             </main>

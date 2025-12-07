@@ -53,7 +53,7 @@ const ProductPreview = () => {
                         >
                             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border border-white/10">
                                 <img
-                                    src="/product.png"
+                                    src={`${import.meta.env.BASE_URL}product.png`}
                                     alt="FloraTune Personalized Probiotics"
                                     className="w-full h-auto object-cover"
                                 />
