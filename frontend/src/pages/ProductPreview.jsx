@@ -16,7 +16,7 @@ const ProductPreview = () => {
                     <img
                         src={`${import.meta.env.BASE_URL}floral-flowers.png`}
                         alt="Decorative Flowers"
-                        className="absolute bottom-[-10%] left-[-10%] w-[400px] opacity-30 mix-blend-multiply rotate-45 pointer-events-none"
+                        className="absolute bottom-[-10%] right-[-5%] w-[500px] opacity-20 mix-blend-multiply pointer-events-none z-0"
                     />
 
                     <div className="grid lg:grid-cols-2 gap-12 items-center relative z-10">
